@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  edito-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-01T14:42:42.802612+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 6dd21f417f96fc6a13611a12df01be3bf2f49c79ae931c371ed46bf5db4c00be
+    name: edito-chart
+    type: application
+    urls:
+    - https://slim-mercator.github.io/edito-Helm-charts/edito-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-09-01T14:42:42.801818+02:00"
