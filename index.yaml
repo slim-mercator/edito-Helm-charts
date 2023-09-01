@@ -3,7 +3,7 @@ entries:
   edito-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-01T16:38:57.737784+02:00"
+    created: "2023-09-01T16:42:41.70444+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -20,4 +20,24 @@ entries:
     urls:
     - https://slim-mercator.github.io/edito-Helm-charts/edito-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-01T16:38:57.736974+02:00"
+  edito-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-01T16:42:41.705229+02:00"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.3.15
+    description: A Helm chart for some tests
+    digest: c39dd9438e8c13cb7e6b9a5c0b272b782d86d2d4d46d5946d02b672e5172776b
+    home: https://digitaltwinocean.edito-infra.eu
+    icon: https://digitaltwinocean.edito-infra.eu/assets/img/EDITO_Model_Infra_logo-01-croped-white.png
+    keywords:
+    - Edito
+    - Test
+    name: edito-test
+    type: application
+    urls:
+    - https://slim-mercator.github.io/edito-Helm-charts/edito-test-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-09-01T16:42:41.703523+02:00"

@@ -21,8 +21,7 @@
                         "type": "string",
                         "listEnum": [
                             "inseefrlab/onyxia-jupyter-python:py3.11.4",
-                            "inseefrlab/onyxia-jupyter-python:py3.10.12",
-                            "inseefrlab/onyxia-jupyter-python:py3.9.16"
+                            "inseefrlab/onyxia-jupyter-python:py3.10.12"
                         ],
                         "render": "list",
                         "pattern": "^[a-z0-9-_./]+(:[a-z0-9-_.]+)?$",
