@@ -3,7 +3,7 @@ entries:
   edito-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-01T16:45:09.895594+02:00"
+    created: "2023-09-01T16:54:04.892554+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -20,4 +20,4 @@ entries:
     urls:
     - edito-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-01T16:45:09.894607+02:00"
+generated: "2023-09-01T16:54:04.891841+02:00"
