@@ -1,6 +1,6 @@
 apiVersion: v2
 name: edito-test
-description: A Helm chart for Kubernetes
+description: A Helm chart for some tests
 icon: https://digitaltwinocean.edito-infra.eu/assets/img/EDITO_Model_Infra_logo-01-croped-white.png
 
 keywords:
