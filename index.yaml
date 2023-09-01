@@ -3,13 +3,13 @@ entries:
   edito-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-01T16:42:41.70444+02:00"
+    created: "2023-09-01T16:45:09.895594+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
       version: 1.3.15
-    description: A Helm chart for Kubernetes
-    digest: 55225f624332c0b8375414f4495d26b68d9f1230c94cd56172da9c74dafdc479
+    description: A Helm chart for some tests
+    digest: 9d6db8e5e3e11fc78e99bc35074890a67a425e08d9b726a4a93fedc32fbe2f82
     home: https://digitaltwinocean.edito-infra.eu
     icon: https://digitaltwinocean.edito-infra.eu/assets/img/EDITO_Model_Infra_logo-01-croped-white.png
     keywords:
@@ -18,26 +18,6 @@ entries:
     name: edito-chart
     type: application
     urls:
-    - https://slim-mercator.github.io/edito-Helm-charts/edito-chart-0.1.0.tgz
+    - edito-chart-0.1.0.tgz
     version: 0.1.0
-  edito-test:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-09-01T16:42:41.705229+02:00"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.3.15
-    description: A Helm chart for some tests
-    digest: c39dd9438e8c13cb7e6b9a5c0b272b782d86d2d4d46d5946d02b672e5172776b
-    home: https://digitaltwinocean.edito-infra.eu
-    icon: https://digitaltwinocean.edito-infra.eu/assets/img/EDITO_Model_Infra_logo-01-croped-white.png
-    keywords:
-    - Edito
-    - Test
-    name: edito-test
-    type: application
-    urls:
-    - https://slim-mercator.github.io/edito-Helm-charts/edito-test-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-09-01T16:42:41.703523+02:00"
+generated: "2023-09-01T16:45:09.894607+02:00"
