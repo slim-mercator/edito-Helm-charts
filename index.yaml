@@ -3,7 +3,7 @@ entries:
   edito-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-01T16:37:32.550695+02:00"
+    created: "2023-09-01T16:38:57.737784+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -20,4 +20,4 @@ entries:
     urls:
     - https://slim-mercator.github.io/edito-Helm-charts/edito-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-01T16:37:32.547719+02:00"
+generated: "2023-09-01T16:38:57.736974+02:00"
