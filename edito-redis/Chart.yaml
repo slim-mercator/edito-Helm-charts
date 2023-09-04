@@ -1,6 +1,6 @@
 apiVersion: v2
 name: edito-redis
-description: Helm chart for Redis database
+description: Helm chart for deploying Redis
 
 # A chart can be either an 'application' or a 'library' chart.
 #

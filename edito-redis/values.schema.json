@@ -3,7 +3,7 @@
     "type": "object",
     "properties": {
       "redis": {
-        "description": "Redis specific configuration",
+        "description": "redis specific configuration",
         "type": "object",
         "properties": {
           "image": {
@@ -23,7 +23,7 @@
             "type": "object",
             "properties": {
               "password": {
-                "description": "Redis password",
+                "description": "redis password",
                 "type": "string",
                 "default": "changeme",
                 "x-form": {
@@ -31,6 +31,33 @@
                 },
                 "x-onyxia": {
                   "overwriteDefaultWith": "{{project.password}}"
+                }
+              }
+            }
+          },
+          "persistence": {
+            "description": "Configuration for persistence",
+            "type": "object",
+            "properties": {
+              "enabled": {
+                "type": "boolean",
+                "description": "Create a persistent volume",
+                "default": true
+              },
+              "size": {
+                "type": "string",
+                "title": "Persistent volume size",
+                "description": "Size of the persistent volume",
+                "default": "10Gi",
+                "form": true,
+                "render": "slider",
+                "sliderMin": 1,
+                "sliderMax": 100,
+                "sliderStep": 1,
+                "sliderUnit": "Gi",
+                "hidden": {
+                  "value": false,
+                  "path": "redis/persistence/enabled"
                 }
               }
             }
@@ -137,4 +164,3 @@
       }
     }
   }
-  
