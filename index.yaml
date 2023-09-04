@@ -3,13 +3,13 @@ entries:
   edito-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-04T15:49:59.425963+02:00"
+    created: "2023-09-04T15:58:46.232799+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
       version: 1.3.15
     description: A Helm chart for some tests
-    digest: a8cc929c6157c6f684d7274b5fdf98118103c60005a7376bcd0958316fa38946
+    digest: 1a8ac3ce215c8e10a169630c7fa784b4532ba06c4f79c483271e4aa6f8aaa44a
     home: https://digitaltwinocean.edito-infra.eu
     icon: https://digitaltwinocean.edito-infra.eu/assets/img/EDITO_Model_Infra_logo-01-croped-white.png
     keywords:
@@ -23,7 +23,7 @@ entries:
   edito-redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-04T15:49:59.429904+02:00"
+    created: "2023-09-04T15:58:46.236765+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -32,10 +32,10 @@ entries:
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
       version: 1.3.15
     description: Helm chart for deploying Redis
-    digest: 195659dac69f79de7b589466720829f6d110908b0fd3ac01f9b92222644940ae
+    digest: b6f0e18d693f4480c80a073fd1a494dabd764a24001ff98a390e60f648257c1e
     name: edito-redis
     type: application
     urls:
     - edito-redis-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-04T15:49:59.425068+02:00"
+generated: "2023-09-04T15:58:46.23191+02:00"
