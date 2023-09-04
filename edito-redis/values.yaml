@@ -1,0 +1,14 @@
+redis:
+  resources: {}
+  fullnameOverride: redis
+  architecture: replicaset
+  image:
+    tag: "7.2.0"
+  auth:
+    password: changeme
+  replica:
+    replicaCount: 2
+# fullnameOverride: redis
+# security:
+#   networkPolicy: 
+#     enabled: true
