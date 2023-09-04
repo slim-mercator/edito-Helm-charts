@@ -3,7 +3,7 @@ entries:
   edito-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-04T15:27:07.718144+02:00"
+    created: "2023-09-04T15:29:32.24287+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -23,7 +23,7 @@ entries:
   edito-redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-04T15:27:07.721911+02:00"
+    created: "2023-09-04T15:29:32.246979+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -31,11 +31,11 @@ entries:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
       version: 1.3.15
-    description: A Helm chart for Kubernetes
-    digest: a5808d4685dd06b3f37b04f2ce26124b7d925581ff3c6f81d934609603c042ad
+    description: Helm chart for Redis database
+    digest: fdb17f110515e3882c4d7d2209c393b7fbcb270eaaac48c21208807249e1f60e
     name: edito-redis
     type: application
     urls:
     - edito-redis-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-04T15:27:07.716976+02:00"
+generated: "2023-09-04T15:29:32.241993+02:00"

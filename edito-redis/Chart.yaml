@@ -1,6 +1,6 @@
 apiVersion: v2
 name: edito-redis
-description: A Helm chart for Kubernetes
+description: Helm chart for Redis database
 
 # A chart can be either an 'application' or a 'library' chart.
 #

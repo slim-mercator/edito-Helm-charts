@@ -8,7 +8,7 @@ redis:
     password: changeme
   replica:
     replicaCount: 2
-# fullnameOverride: redis
-# security:
-#   networkPolicy: 
-#     enabled: true
+fullnameOverride: redis
+security:
+  networkPolicy: 
+    enabled: true
