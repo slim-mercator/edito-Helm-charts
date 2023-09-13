@@ -16,12 +16,6 @@ spec:
   template:
     metadata:
       annotations:
-        {{- if not (empty (trim (include "library-chart.configMapMLFlow" .)))}}
-        checksum/mlflow: {{ include (print $.Template.BasePath "/configmap-mlflow.yaml") . | sha256sum }}
-        {{- end }}
-        {{- if not (empty (trim (include "library-chart.configMapHive" .)))}}
-        checksum/hive: {{ include (print $.Template.BasePath "/configmap-hive.yaml") . | sha256sum }}
-        {{- end }}
         {{- with .Values.podAnnotations }}
         {{- toYaml . | nindent 8 }}
         {{- end }}
@@ -82,11 +76,6 @@ spec:
             - name: GRANT_SUDO
               value: "yes"
             {{- end }}          
-          envFrom: 
-            {{- if not (empty (trim (include "library-chart.configMapMLFlow" .)))}}
-            - configMapRef:
-                name: {{ include "library-chart.configMapNameMLFlow" . }}
-            {{- end }}
           livenessProbe:
             httpGet:
               path: /
@@ -105,17 +94,7 @@ spec:
           volumeMounts:
             - mountPath: /home/{{ .Values.environment.user}}/work
               subPath: work
-              name: home
-            {{- if .Values.discovery.hive }}
-            - name: hive-config
-              mountPath: /opt/hive/conf/hive-site.xml
-              subPath: hive-site.xml
-            {{- end }}   
-            {{- if .Values.discovery.metaflow }}
-            - name: metaflow-config
-              mountPath: /home/{{ .Values.environment.user}}/.metaflowconfig/config.json
-              subPath: config.json
-            {{- end }}     
+              name: home   
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
