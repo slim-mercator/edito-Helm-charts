@@ -1,6 +1,6 @@
 apiVersion: v2
 name: edito-autosubmit
-description: Chart to run an autosubmit container
+description: Chart to run an autosubmit container 2
 
 # A chart can be either an 'application' or a 'library' chart.
 #
