@@ -3,13 +3,13 @@ entries:
   edito-autosubmit:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-13T15:10:34.316955+02:00"
+    created: "2023-09-13T15:18:45.428687+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
       version: 1.3.15
-    description: Chart to run an autosubmit container 5
-    digest: 500f92422a633d6d94e3ca6addedbcbc24be206ff9ae08b38870bfbc600e95cd
+    description: Chart to run an autosubmit container 6
+    digest: edae7237c3fb306bf17574f76b8e9d7151371168676a63150315d9a6f214a5da
     name: edito-autosubmit
     type: application
     urls:
@@ -18,7 +18,7 @@ entries:
   edito-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-13T15:10:34.317771+02:00"
+    created: "2023-09-13T15:18:45.42965+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -38,7 +38,7 @@ entries:
   edito-redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-13T15:10:34.32194+02:00"
+    created: "2023-09-13T15:18:45.433938+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -53,4 +53,4 @@ entries:
     urls:
     - edito-redis-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-13T15:10:34.316262+02:00"
+generated: "2023-09-13T15:18:45.427305+02:00"

@@ -23,10 +23,6 @@
                             "nexus.mercator-ocean.fr:33331/moi-docker/autosubmit:latest"
                         ],
                         "render": "list",
-                        "hidden": {
-                            "value": true,
-                            "path": "service/image/custom/enabled"
-                        },
                         "default": "nexus.mercator-ocean.fr:33331/moi-docker/autosubmit:latest"
                       }
                     }        
