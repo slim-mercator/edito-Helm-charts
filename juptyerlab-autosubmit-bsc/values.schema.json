@@ -20,8 +20,7 @@
                         "description": "supported versions",
                         "type": "string",
                         "listEnum": [
-                            "inseefrlab/onyxia-jupyter-python:py3.11.4",
-                            "inseefrlab/onyxia-jupyter-python:py3.10.12"
+                            "docker.mercator-ocean.fr/moi-docker/edito-infra-autosubmit:8e67ad2915ccc178a132d6d925eb894eab095687"
                         ],
                         "render": "list",
                         "pattern": "^[a-z0-9-_./]+(:[a-z0-9-_.]+)?$",
@@ -29,7 +28,7 @@
                             "value": true,
                             "path": "service/image/custom/enabled"
                         },
-                        "default": "inseefrlab/onyxia-jupyter-python:py3.11.4"
+                        "default": "docker.mercator-ocean.fr/moi-docker/edito-infra-autosubmit:8e67ad2915ccc178a132d6d925eb894eab095687"
                       },
                       "custom" : {
                         "description": "use a custom jupyter docker image",
@@ -44,7 +43,7 @@
                           "version": {
                             "description": "jupyter unsupported version",
                             "type": "string",
-                            "default": "inseefrlab/onyxia-jupyter-python:py3.10.9",
+                            "default": "docker.mercator-ocean.fr/moi-docker/edito-infra-autosubmit:8e67ad2915ccc178a132d6d925eb894eab095687",
                             "pattern": "^[a-z0-9-_./]+(:[a-z0-9-_.]+)?$",
                             "hidden": {
                                 "value": false,

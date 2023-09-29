@@ -1,6 +1,12 @@
 apiVersion: v2
-name: edito-redis
-description: Helm chart for deploying Redis 2
+name: juptyerlab-autosubmit-bsc
+description: Launch a jupyter python 3.10.12 with autosubmit for bsc. Create a secret named autosubmit containing a variable named SSH_PRIVATE_KEY with you private key as its value.
+icon: https://digitaltwinocean.edito.eu/assets/img/EDITO_Model_Infra_logo-01-croped-white.png
+
+keywords:
+  - EDITO
+
+home: https://digitaltwinocean.edito.eu
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -15,18 +21,15 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.0
+version: 1.0.0
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
-appVersion: "1.16.0"
+appVersion: "1.0.0"
 
 dependencies:
-  - name: redis
-    version: 18.0.1
-    repository: https://charts.bitnami.com/bitnami
   - name: library-chart
     version: 1.3.15
     repository: https://inseefrlab.github.io/helm-charts-interactive-services

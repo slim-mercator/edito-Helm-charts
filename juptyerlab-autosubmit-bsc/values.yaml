@@ -2,11 +2,8 @@
 
 service:
   image:
-    version: "inseefrlab/onyxia-jupyter-python:py3.11.4"
+    version: "docker.mercator-ocean.fr/moi-docker/edito-infra-autosubmit:8e67ad2915ccc178a132d6d925eb894eab095687"
     pullPolicy: IfNotPresent
-    custom:
-      enabled: false
-      version: "inseefrlab/onyxia-jupyter-python:py3.10.9"
 
 security:
   password: "changeme"

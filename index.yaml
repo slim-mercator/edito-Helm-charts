@@ -1,56 +1,24 @@
 apiVersion: v1
 entries:
-  edito-autosubmit:
+  juptyerlab-autosubmit-bsc:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-09-13T16:57:51.028772+02:00"
+    appVersion: 1.0.0
+    created: "2023-10-02T11:26:26.541060776+02:00"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
       version: 1.3.15
-    description: Chart to run an autosubmit container 11
-    digest: a80b145541c51a56977c3921521d9015d3fe38627c6de868de3d491a39b116d8
-    name: edito-autosubmit
-    type: application
-    urls:
-    - edito-autosubmit-0.1.0.tgz
-    version: 0.1.0
-  edito-chart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-09-13T16:57:51.029805+02:00"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.3.15
-    description: A Helm chart for some tests
-    digest: 1a8ac3ce215c8e10a169630c7fa784b4532ba06c4f79c483271e4aa6f8aaa44a
-    home: https://digitaltwinocean.edito-infra.eu
-    icon: https://digitaltwinocean.edito-infra.eu/assets/img/EDITO_Model_Infra_logo-01-croped-white.png
+    description: Launch a jupyter python 3.10.12 with autosubmit for bsc. Create a
+      secret named autosubmit containing a variable named SSH_PRIVATE_KEY with you
+      private key as its value.
+    digest: 31778391601cedcd97cc1141fd8831ab0c093567c6bbe3471c2cd839be92665c
+    home: https://digitaltwinocean.edito.eu
+    icon: https://digitaltwinocean.edito.eu/assets/img/EDITO_Model_Infra_logo-01-croped-white.png
     keywords:
-    - Edito
-    - Test
-    name: edito-chart
+    - EDITO
+    name: juptyerlab-autosubmit-bsc
     type: application
     urls:
-    - edito-chart-0.1.0.tgz
-    version: 0.1.0
-  edito-redis:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-09-13T16:57:51.033771+02:00"
-    dependencies:
-    - name: redis
-      repository: https://charts.bitnami.com/bitnami
-      version: 18.0.1
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.3.15
-    description: Helm chart for deploying Redis 2
-    digest: bdba7fa4b4a4480ed12ee7da49ae1b94eac1e06cb57b5d2d57406e99f12a17d1
-    name: edito-redis
-    type: application
-    urls:
-    - edito-redis-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-09-13T16:57:51.028146+02:00"
+    - juptyerlab-autosubmit-bsc-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-10-02T11:26:26.539890697+02:00"
